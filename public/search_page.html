@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+    <meta name="description" content="Web site created using create-react-app"/>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Last.fm</title>
+</head>
+<body class="app">
+
+<header class="header">
+    <div class="header__player">
+        <img src="player_default_album.png" alt="player_default_album">
+        <ul class="header__player__panel">
+            <li>
+                <button class="btnTransparent">
+                    <i class="material-icons" style="font-size: 22px"> fast_rewind</i>
+                </button>
+            </li>
+            <li>
+                <button class="btnTransparent">
+                    <i class="material-icons" style="font-size: 36px"> play_circle_outline</i>
+                </button>
+            </li>
+            <li>
+                <button class="btnTransparent">
+                    <i class="material-icons" style="font-size: 22px"> fast_forward</i>
+                </button>
+            </li>
+            <li>
+                <button class="btnTransparent">
+                    <i class="material-icons" style="font-size: 16px"> favorite_border</i>
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div class="header__logo">
+        <a href="/" class="link"><img src="logo.png" alt="last.fm" style="width: 90px"></a>
+    </div>
+    <div class="header__nav">
+        <button class="btnTransparent">
+            <img src="search.png" alt="search" style="height: 16px">
+        </button>
+        <nav>
+            <ul>
+                <li><a href="/" class="link">Home</a></li>
+                <li><a href="/" class="link">Live</a></li>
+                <li><a href="/" class="link">Music</a></li>
+                <li><a href="/" class="link">Charts</a></li>
+                <li><a href="/" class="link">Events</a></li>
+                <li><a href="/" class="link">Features</a></li>
+            </ul>
+        </nav>
+        <img class="profileAvatar" src="avatar.png" alt="avatar">
+    </div>
+</header>
+
+<main class="main">
+    <div class="container">
+        <div class="container top-content">
+            <h1 class="search_header">Search results for “never gonna”</h1>
+            <nav class="navlist">
+                <ul class="navlist-items">
+                    <li><a href="/" class="link">Home</a></li>
+                    <li><a href="/" class="link">Live</a></li>
+                    <li><a href="/" class="link">Music</a></li>
+                    <li><a href="/" class="link">Charts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <hr color="#666" style="height: 1px; border: none;"/>
+    <div class="container page-content">
+        <div class="search-results-col">
+            <form class="search-results-col-form">
+                <input class="search-form-input" placeholder="Search for music..." value="never gonna" required>
+                <button class="search-reset" type="reset"></button>
+                <button class="search-submit" type="submit"></button>
+            </form>
+            <section>
+                <h2>
+                    <a href="/search/artists?q=never+gona" class="text-colour-link">
+                        Artists
+                    </a>
+                </h2>
+                <ol></ol>
+                <p class="more-artists">
+                    <a href="/" class="link">
+                        More artists
+                    </a>
+                </p>
+            </section>
+            <section></section>
+        </div>
+        <div class="search-results-col-sidebar">
+            <p> Don't want to see ads?
+                <a href="/" style="color: inherit;">Upgrade Now</a>
+            </p>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="footer__top">
+        <div class="footer-top__row">
+            <ul class="footer-top__col">
+                <h2 class="title">Company</h2>
+                <li><a href="/" class="link">About last.fm</a></li>
+                <li><a href="/" class="link">Contact us</a></li>
+                <li><a href="/" class="link">Jobs</a></li>
+            </ul>
+            <ul class="footer-top__col">
+                <h2 class="title">Company</h2>
+                <li><a href="/" class="link">About last.fm</a></li>
+                <li><a href="/" class="link">Contact as</a></li>
+                <li><a href="/" class="link">Jobs</a></li>
+            </ul>
+            <ul class="footer-top__col">
+                <h2 class="title">Company</h2>
+                <li><a href="/" class="link">About last.fm</a></li>
+                <li><a href="/" class="link">Contact as</a></li>
+                <li><a href="/" class="link">Jobs</a></li>
+            </ul>
+            <ul class="footer-top__col">
+                <h2 class="title">Company</h2>
+                <li><a href="/" class="link">About last.fm</a></li>
+                <li><a href="/" class="link">Contact as</a></li>
+                <li><a href="/" class="link">Jobs</a></li>
+            </ul>
+            <ul class="footer-top__col">
+                <h2 class="title">Company</h2>
+                <li><a href="/" class="link">About last.fm</a></li>
+                <li><a href="/" class="link">Contact as</a></li>
+                <li><a href="/" class="link">Jobs</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr color="#666" style="height: 1px; border: none;"/>
+    <div class="footer__bottom">
+        <div class="footer-bottom__row">
+            <div class="footer-bottom__row_info">
+                <ul class="language-selector">
+                    <li class="footer-language">English</li>
+                    <li class="footer-language">Deutsch</li>
+                    <li class="footer-language">Español</li>
+                    <li class="footer-language">Français</li>
+                    <li class="footer-language">Italiano</li>
+                    <li class="footer-language">日本語</li>
+                    <li class="footer-language">Polski</li>
+                    <li class="footer-language">Português</li>
+                    <li class="footer-language">Русский</li>
+                    <li class="footer-language">Svenska</li>
+                    <li class="footer-language">Türkçe</li>
+                    <li class="footer-language">简体中文</li>
+                </ul>
+                <p class="footer-timezone">
+                    <span style="color: #666">Time zone:
+                        <strong style="color: aliceblue">Europe/Moscow</strong>
+                    </span>
+                </p>
+                <div>
+                    <ul class="footer-legal-list">
+                        <li class="footer-legal-list-item">CBS Interactive © 2022 Last.fm Ltd. All rights reserved</li>
+                        <li class="footer-legal-list-item">Terms of Use</li>
+                        <li class="footer-legal-list-item">Privacy Policy</li>
+                        <li class="footer-legal-list-item">Legal Policies</li>
+                        <li class="footer-legal-list-item">Cookies Policy</li>
+                        <li class="footer-legal-list-item">Cookie Information</li>
+                        <li class="footer-legal-list-item">Jobs at ViacomCBS</li>
+                        <li class="footer-legal-list-item">Last.fm Music</li>
+                    </ul>
+                    <p class="footer-legal-wiki">Some user-contributed text on this page is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply.</p>
+                </div>
+            </div>
+            <div class="footer-bottom__row__logo">
+                <p>Audioscrobbler</p>
+                <img class="footer-logo" src="footer_logo.png" alt="footer_logo">
+            </div>
+    </div>
+</footer>
+</body>
+</html>
