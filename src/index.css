@@ -68,9 +68,6 @@
     font-weight: bold;
 }
 
-.musicalGenreList {
-}
-
 .musicalGenreListItem {
     display: inline-block;
     color: #999;
@@ -199,7 +196,124 @@
 }
 
 .footer {
-    background-color: black;
-    height: 160px;
+    background-color: #111;
+    /* height: 160px; */
 }
 
+.footer-top__col {
+    color: aliceblue;
+    list-style-type: none;
+    width: 240px;
+    padding: 0 15px 0 15px;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.title {
+    color: #666;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+.footer__top {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-top__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 24px; 
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer__bottom {
+    color: aliceblue;
+    padding-top: 18px;
+    padding-bottom: 48px;
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-bottom__row {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer-bottom__row_info {
+    width: 900px;
+}
+.footer-bottom__row__logo {
+    width: 300px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.footer-logo {
+    width: 37px;
+    height: 20px;
+}
+
+.language-selector {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    padding: 0 15px 0 15px;
+}
+
+.footer-language {
+    display: inline;
+    cursor: pointer;
+    margin-right: 10px;
+    line-height: 24px;
+}
+
+.footer-timezone {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 6px;
+    padding: 0 15px 0 15px;
+    font-weight: normal;
+}
+
+.footer-legal-list {
+    padding: 0 15px 0 15px;
+    margin-top: 12px;
+}
+
+.footer-legal-list-item {
+    display: inline-block;
+    line-height: 18px;
+    font-size: 12px;
+    color: #666;
+    font-family: Helvetica, sans-serif;
+}
+
+.footer-legal-list-item:nth-child(n+2):before {
+    content: " ·";
+    font-weight: normal;
+    margin-right: 3px;
+}
+
+.footer-legal-wiki {
+    padding: 0 15px 0 15px;
+    font-family: Helvetica, sans-serif;
+    color: #666;
+    font-size: 12px;
+    line-height: 18px;
+}
