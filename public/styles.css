@@ -374,11 +374,44 @@
     font-size: 12px;
 }
 
+.artists__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.artists__list__item {
+    list-style-type: none;
+    position: relative;
+}
+
+.artist_background {
+    height: 155px;
+    width: 155px;
+}
+
+.artist_details {
+    color: black;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 15px 0;
+}
+
+.artist_details_main {
+    width: 150px;
+    font-weight: 700;
+}
+
+.artist_details_main:hover {
+    text-decoration-line: underline;
+}
+
 .more-artists {
+    text-align: right;
     color: #005399;
 }
 
-.more-artists:nth-child(n+2):after {
+.more-artists:nth-child(3):after {
     content: " >";
     font-weight: normal;
     margin-right: 3px;

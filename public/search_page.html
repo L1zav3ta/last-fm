@@ -17,46 +17,46 @@
     <div class="header__player">
         <img src="player_default_album.png" alt="player_default_album">
         <ul class="header__player__panel">
-            <li>
-                <button class="btnTransparent">
-                    <i class="material-icons" style="font-size: 22px"> fast_rewind</i>
+            <li class="header__player__panel_item">
+                <button class="button_transparent">
+                    <i class="material-icons header__player__panel__button__i" style="font-size: 22px">fast_rewind</i>
                 </button>
             </li>
-            <li>
-                <button class="btnTransparent">
-                    <i class="material-icons" style="font-size: 36px"> play_circle_outline</i>
+            <li class="header__player__panel_item">
+                <button class="button_transparent">
+                    <i class="material-icons header__player__panel__button__i" style="font-size: 36px">play_circle_outline</i>
                 </button>
             </li>
-            <li>
-                <button class="btnTransparent">
-                    <i class="material-icons" style="font-size: 22px"> fast_forward</i>
+            <li class="header__player__panel_item">
+                <button class="button_transparent header__player__panel__button__i">
+                    <i class="material-icons" style="font-size: 22px">fast_forward</i>
                 </button>
             </li>
-            <li>
-                <button class="btnTransparent">
-                    <i class="material-icons" style="font-size: 16px"> favorite_border</i>
+            <li class="header__player__panel_item">
+                <button class="button_transparent header__player__panel__button__i">
+                    <i class="material-icons" style="font-size: 16px">favorite_border</i>
                 </button>
             </li>
         </ul>
     </div>
     <div class="header__logo">
-        <a href="/" class="link"><img src="logo.png" alt="last.fm" style="width: 90px"></a>
+        <a href="/" class="link"><img class="header__logo__img_last_fm" src="logo.png" alt="last.fm"></a>
     </div>
     <div class="header__nav">
-        <button class="btnTransparent">
-            <img src="search.png" alt="search" style="height: 16px">
-        </button>
+        <a class="link" href="search_page.html">
+            <img class="header__nav___img_search" src="search.png" alt="search">
+        </a>
         <nav>
-            <ul>
-                <li><a href="/" class="link">Home</a></li>
-                <li><a href="/" class="link">Live</a></li>
-                <li><a href="/" class="link">Music</a></li>
-                <li><a href="/" class="link">Charts</a></li>
-                <li><a href="/" class="link">Events</a></li>
-                <li><a href="/" class="link">Features</a></li>
+            <ul class="header__nav__ul">
+                <li class="header__nav__li"><a href="/" class="link">Home</a></li>
+                <li class="header__nav__li"><a href="/" class="link">Live</a></li>
+                <li class="header__nav__li"><a href="/" class="link">Music</a></li>
+                <li class="header__nav__li"><a href="/" class="link">Charts</a></li>
+                <li class="header__nav__li"><a href="/" class="link">Events</a></li>
+                <li class="header__nav__li"><a href="/" class="link">Features</a></li>
             </ul>
         </nav>
-        <img class="profileAvatar" src="avatar.png" alt="avatar">
+        <img class="avatar avatar_profile" src="avatar.png" alt="Profile avatar">
     </div>
 </header>
 
@@ -82,13 +82,102 @@
                 <button class="search-reset" type="reset"></button>
                 <button class="search-submit" type="submit"></button>
             </form>
-            <section>
-                <h2>
+            <section class="artists">
+                <h2 class="artists__title">
                     <a href="/search/artists?q=never+gona" class="text-colour-link">
                         Artists
                     </a>
                 </h2>
-                <ol></ol>
+                <ul class="artists__list">
+                    <li class="artists__list__item link">
+                        <img class="artist_background"
+                            src="search_artist.png" 
+                            alt="Image for 'No One's Gonna Love You (Paul Epworth Mix)">
+                        <div class="artist_details">
+                            <p>
+                                <a href="/" class="artist_details_main link">No One's Gonna Love You (Paul Epworth Mix)</a>
+                            </p>
+                            <p>220 listeners</p>
+                        </div>
+                    </li>
+                    <li class="artists__list__item link">
+                        <img class="artist_background"
+                            src="search_artist.png" 
+                            alt="Image for 'No One's Gonna Love You (Paul Epworth Mix)">
+                        <div class="artist_details">
+                            <p>
+                                <a href="/" class="artist_details_main link">No One's Gonna Love You (Paul Epworth Mix)</a>
+                            </p>
+                            <p>220 listeners</p>
+                        </div>
+                    </li>
+                    <li class="artists__list__item link">
+                        <img class="artist_background"
+                            src="search_artist.png" 
+                            alt="Image for 'No One's Gonna Love You (Paul Epworth Mix)">
+                        <div class="artist_details">
+                            <p>
+                                <a href="/" class="artist_details_main link">No One's Gonna Love You (Paul Epworth Mix)</a>
+                            </p>
+                            <p>220 listeners</p>
+                        </div>
+                    </li>
+                    <li class="artists__list__item link">
+                        <img class="artist_background"
+                            src="search_artist.png" 
+                            alt="Image for 'No One's Gonna Love You (Paul Epworth Mix)">
+                        <div class="artist_details">
+                            <p>
+                                <a href="/" class="artist_details_main link">No One's Gonna Love You (Paul Epworth Mix)</a>
+                            </p>
+                            <p>220 listeners</p>
+                        </div>
+                    </li>
+                    <li class="artists__list__item link">
+                        <img class="artist_background"
+                            src="search_artist.png" 
+                            alt="Image for 'No One's Gonna Love You (Paul Epworth Mix)">
+                        <div class="artist_details">
+                            <p>
+                                <a href="/" class="artist_details_main link">No One's Gonna Love You (Paul Epworth Mix)</a>
+                            </p>
+                            <p>220 listeners</p>
+                        </div>
+                    </li>
+                    <li class="artists__list__item link">
+                        <img class="artist_background"
+                            src="search_artist.png" 
+                            alt="Image for 'No One's Gonna Love You (Paul Epworth Mix)">
+                        <div class="artist_details">
+                            <p>
+                                <a href="/" class="artist_details_main link">No One's Gonna Love You (Paul Epworth Mix)</a>
+                            </p>
+                            <p>220 listeners</p>
+                        </div>
+                    </li>
+                    <li class="artists__list__item link">
+                        <img class="artist_background"
+                            src="search_artist.png" 
+                            alt="Image for 'No One's Gonna Love You (Paul Epworth Mix)">
+                        <div class="artist_details">
+                            <p>
+                                <a href="/" class="artist_details_main link">No One's Gonna Love You (Paul Epworth Mix)</a>
+                            </p>
+                            <p>220 listeners</p>
+                        </div>
+                    </li>
+                    <li class="artists__list__item link">
+                        <img class="artist_background"
+                            src="search_artist.png" 
+                            alt="Image for 'No One's Gonna Love You (Paul Epworth Mix)">
+                        <div class="artist_details">
+                            <p>
+                                <a href="/" class="artist_details_main link">No One's Gonna Love You (Paul Epworth Mix)</a>
+                            </p>
+                            <p>220 listeners</p>
+                        </div>
+                    </li>
+                </ul>
                 <p class="more-artists">
                     <a href="/" class="link">
                         More artists
