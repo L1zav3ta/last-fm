@@ -8,11 +8,12 @@
     display: grid;
     grid-template-rows: min-content 1fr min-content;
     height: 100vh;
+    font-family: Barlow,Open Sans,Lucida Grande,Helvetica Neue,Helvetica,Arial,Sans-serif;
 }
 
 .container {
-    padding: 48px 20px 48px 20px;
-    margin: 0 25px 0 25px;
+    padding: 0 30px 0 30px;
+    margin: 0 auto 0 auto;
 }
 
 .link {
@@ -24,58 +25,58 @@
     opacity: inherit;
 }
 
-.profileAvatar, .artistAvatar {
+.avatar {
     border-radius: 50%;
 }
 
-.profileAvatar {
+.avatar_profile {
     width: 36px;
     height: 36px;
 }
 
-.artistAvatar {
+.avatar_artist {
     width: 170px;
     height: 170px;
 }
 
-.trackImage {
+.track_img {
     width: 70px;
     height: 70px;
 }
 
-.trackDescription {
+.track_description {
     display: flex;
     flex-direction: column;
     margin: 5px 0 5px 15px;
 }
 
-.btnTransparent {
+.button_transparent {
     background-color: transparent;
     border: transparent;
 }
 
-.artistName {
+.artist_name {
     font-size: large;
     font-weight: bold;
     margin-top: 12px;
 }
 
-.trackName, .trackArtistName {
+.track_name, .track_artist_name {
     font-size: 14px;
 }
 
-.trackName {
+.track_name {
     font-weight: bold;
 }
 
-.musicalGenreListItem {
+.musical_genre_li {
     display: inline-block;
     color: #999;
     font-size: 14px;
     line-height: 18px;
 }
 
-.musicalGenreListItem:nth-child(n+2):before {
+.musical_genre_li:nth-child(n+2):before {
     content: " ·";
     font-weight: normal;
     margin-right: 3px;
@@ -85,20 +86,12 @@
     display: flex;
     align-items: center;
     background-color: black;
+    height: 60px;
 }
 
 .header__player {
     display: flex;
     flex: 1;
-}
-
-.header__player li {
-    display: inline-block;
-}
-
-.header__player i {
-    color: dimgrey;
-    margin: 5px;
 }
 
 .header__player__panel {
@@ -107,12 +100,25 @@
     margin-left: 60px;
 }
 
+.header__player__panel_item {
+    display: inline-block;
+}
+
+.header__player__panel__button__i {
+    color: dimgrey;
+    margin: 5px;
+}
+
 .header__logo {
     display: flex;
     flex: 0.5;
     justify-content: center;
     margin-right: 15px;
     margin-left: 15px;
+}
+
+.header__logo__img_last_fm {
+    width: 90px
 }
 
 .header__nav {
@@ -125,18 +131,21 @@
     white-space: nowrap;
 }
 
-.header__nav ul {
-    margin-right: 15px;
+.header__nav___img_search {
+    height: 16px
 }
 
-.header__nav li {
-    display: inline-block;
+.header__nav__ul {
     color: white;
     font-size: smaller;
     font-weight: lighter;
-    margin-left: 10px;
-    font-family: Helvetica, sans-serif;
     white-space: nowrap;
+    margin-right: 15px;
+}
+
+.header__nav__li {
+    display: inline-block;
+    margin-left: 10px;
 }
 
 .main__section {
@@ -144,21 +153,18 @@
     flex-direction: column;
 }
 
-.main__title, .main__subtitle {
+.main__title {
     font-weight: bold;
     text-align: center;
     margin-top: 48px;
-}
-
-.main__title {
     font-size: 48px;
 }
 
-.main__subtitle {
+.main__section .main__title{
     font-size: large;
 }
 
-.main__subtitle:after {
+.main__section .main__title:after {
     display: block;
     content: "";
     background: #b90000;
@@ -167,36 +173,38 @@
     margin: 18px auto;
 }
 
-.main__artistsList {
+.main__artists__ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    min-width: 1024px;
 }
 
-.main__artistsListItem {
+.main__artists__li {
     display: inline-block;
     margin: 15px;
+    line-height: 21px;
 }
 
-.main__tracksList {
+.main__tracks__ul {
     display: grid;
-    grid-gap: 20px 24px;
-    grid-auto-flow: column;
-    grid-template-columns: repeat(3, 33%);
-    grid-template-rows: repeat(4, 25%);
+    grid-gap: 20px 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     white-space: nowrap;
+    min-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.main__tracksListItem {
+
+.main__tracks__li {
     display: flex;
-}
-
-.main__content__trackList img {
-    width: 60px;
-    height: 60px;
 }
 
 .footer {
     background-color: #111;
+    margin-top: 48px;
     /* height: 160px; */
 }
 
@@ -220,7 +228,7 @@
 .footer__top {
     padding-top: 48px;
     padding-bottom: 48px;
-    width: 1230px;
+    width: 1024px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -240,7 +248,7 @@
     color: aliceblue;
     padding-top: 18px;
     padding-bottom: 48px;
-    width: 1230px;
+    width: 1024px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -335,7 +343,7 @@
     margin-left: 121.5px;
     margin-right: 121.5px;
     padding: 24px 30px 24px 30px;
-    width: 1230px;
+    width: 1024px;
 }
 
 .search-results-col {
