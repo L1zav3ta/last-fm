@@ -374,6 +374,14 @@
     font-size: 12px;
 }
 
+.artists, .albums {
+    margin-top: 24px;
+}
+
+.text-colour-link:hover {
+    text-decoration: underline;
+}
+
 .artists__list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -409,6 +417,11 @@
 .more-artists {
     text-align: right;
     color: #005399;
+    margin-top: 12px;
+}
+
+.more-artists:hover {
+    text-decoration: underline;
 }
 
 .more-artists:nth-child(3):after {
