@@ -204,7 +204,7 @@
 .footer {
     background-color: #111;
     margin-top: 48px;
-    width: 1024px;
+    min-width: 1024px;
 }
 
 .footer-top__col {
@@ -434,7 +434,7 @@
     border-color: #999;
     background-color: rgb(243, 243, 243);
     margin-bottom: -100%;
-    margin-right: -100%;
+    /* margin-right: -100%; */
 }
 
 .main__search_content__right_side__p {
@@ -459,13 +459,23 @@
     border-color: #999;
 }
 
-.main__search_content__track_table__play__music_img {
+.main__search_content__track_table__play, .main__search_content__track_table__music, .main__search_content__track_table__favorite {
+    width: 40px;
+    text-align: left;
+}
+
+.main__search_content__track_table__music_img {
     width: 32px;
     height: 32px;
 }
 
-.main__search_content__track_table__play__music_name {
+.main__search_content__track_table__music_name {
     font-weight: bold;
+}
+
+.main__search_content__track_table__duration {
+    color: #999;
+    text-align: right;
 }
 
 .button__search_img {
