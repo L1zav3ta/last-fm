@@ -414,9 +414,14 @@
 }
 
 .main__search_content__more_link {
+    color: #005399;
     text-align: right;
     width: 100%;
     margin-top: 12px;
+}
+
+.main__search_content__more_link:hover {
+    text-decoration: underline;
 }
 
 .main__search_content__more_link:nth-child(3):after {
@@ -488,4 +493,16 @@
 
 .main__search_content__title {
     font-weight: normal;
+}
+
+.main__search_content__title:hover {
+    text-decoration: underline;
+}
+
+.main__search_content__right_side__p > a {
+    text-decoration: underline;
+}
+
+.main__search_content__right_side__p > a:hover {
+    text-decoration: none;
 }
