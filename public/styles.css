@@ -339,7 +339,13 @@
 
 .main__search_nav__li {
     display: inline-block;
-    margin-right: 4px;
+    margin-right: 2px;
+    padding-right: 10px;
+}
+
+.main__search_nav__li > a {
+    color: inherit;
+   text-decoration: none;
 }
 
 .main__search_nav__li:after {
