@@ -432,12 +432,14 @@
     border-width: 1px;
     border-color: #999;
     background-color: rgb(243, 243, 243);
+    margin-bottom: -100%;
+    margin-right: -100%;
 }
 
 .main__search_content__right_side__p {
     color: #999;
     margin-top: 18px;
-    text-align: center;
+    margin-left: 48px;
     font-size: small;
 }
 
