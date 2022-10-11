@@ -476,6 +476,10 @@
     border-color: #999;
 }
 
+.table__bottom__border:hover {
+    background-color:  #f9f9f9;
+}
+
 .main__search_content__track_table__play, .main__search_content__track_table__music, .main__search_content__track_table__favorite {
     width: 40px;
     text-align: left;
