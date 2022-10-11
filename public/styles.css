@@ -479,3 +479,7 @@
     border: 1px solid #999;
     border-left: none;
 }
+
+.main__search_content__title {
+    font-weight: normal;
+}
