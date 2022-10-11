@@ -239,7 +239,6 @@
 
 .footer__top__row {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     line-height: 24px; 
@@ -248,14 +247,13 @@
 }
 
 .footer__bottom {
-    display: flex;
-    justify-content: center;
     color: aliceblue;
     padding: 18px 0 48px;
 }
 
 .footer__bottom__row {
     display: flex;
+    justify-content: center;
     padding-left: 30px;
     padding-right: 30px;
 }
