@@ -217,7 +217,7 @@
     min-width: 1024px;
 }
 
-.footer-top__col {
+.footer__top__col {
     color: aliceblue;
     list-style-type: none;
     width: 240px;
@@ -225,7 +225,7 @@
     font-size: 14px;
 }
 
-.title {
+.footer__top__col__title {
     color: #666;
     text-transform: uppercase;
     font-size: 12px;
@@ -233,13 +233,12 @@
 }
 
 .footer__top {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding: 48px 0 48px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.footer-top__row {
+.footer__top__row {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -253,20 +252,19 @@
     display: flex;
     justify-content: center;
     color: aliceblue;
-    padding-top: 18px;
-    padding-bottom: 48px;
+    padding: 18px 0 48px;
 }
 
-.footer-bottom__row {
+.footer__bottom__row {
     display: flex;
     padding-left: 30px;
     padding-right: 30px;
 }
 
-.footer-bottom__row_info {
+.footer__bottom__row__info {
     width: 900px;
 }
-.footer-bottom__row__logo {
+.footer__bottom__row__logo {
     width: 100px;
     padding-right: 15px;
     padding-left: 15px;
@@ -274,19 +272,19 @@
     font-size: 12px;
 }
 
-.footer-logo {
+.footer__bottom__row__logo__img {
     width: 37px;
     height: 20px;
 }
 
-.language-selector {
+.footer__bottom__language__selector {
     display: flex;
     flex-direction: row;
     font-size: 14px;
     padding: 0 15px 0 15px;
 }
 
-.footer-language {
+.footer__bottom__language {
     color: #666;
     display: inline;
     cursor: pointer;
@@ -294,7 +292,7 @@
     line-height: 24px;
 }
 
-.footer-timezone {
+.footer__bottom__timezone {
     font-size: 14px;
     line-height: 24px;
     margin-top: 6px;
@@ -302,25 +300,25 @@
     font-weight: normal;
 }
 
-.footer-legal-list {
+.footer__bottom__legalList {
     padding: 0 15px 0 15px;
     margin-top: 12px;
 }
 
-.footer-legal-list-item {
+.footer__bottom__legalList__item {
     display: inline-block;
     line-height: 18px;
     font-size: 12px;
     color: #666;
 }
 
-.footer-legal-list-item:nth-child(n+3):before {
+.footer__bottom__legalList__item:nth-child(n+3):before {
     content: " ·";
     font-weight: normal;
     margin-right: 3px;
 }
 
-.footer-legal-wiki {
+.footer__bottom__legal__wiki {
     padding: 0 15px 0 15px;
     color: #666;
     font-size: 12px;
