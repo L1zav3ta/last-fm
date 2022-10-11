@@ -212,7 +212,6 @@
     list-style-type: none;
     width: 240px;
     padding: 0 15px 0 15px;
-    font-family: Helvetica, sans-serif;
     font-size: 14px;
 }
 
@@ -221,7 +220,6 @@
     text-transform: uppercase;
     font-size: 12px;
     line-height: 18px;
-    font-family: Helvetica, sans-serif;
 }
 
 .footer__top {
@@ -243,12 +241,11 @@
 }
 
 .footer__bottom {
+    display: flex;
+    justify-content: center;
     color: aliceblue;
     padding-top: 18px;
     padding-bottom: 48px;
-    width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .footer-bottom__row {
@@ -261,7 +258,7 @@
     width: 900px;
 }
 .footer-bottom__row__logo {
-    width: 300px;
+    width: 100px;
     padding-right: 15px;
     padding-left: 15px;
     text-align: right;
@@ -434,13 +431,12 @@
     border-color: #999;
     background-color: rgb(243, 243, 243);
     margin-bottom: -100%;
-    /* margin-right: -100%; */
 }
 
 .main__search_content__right_side__p {
     color: #999;
-    margin-top: 18px;
-    margin-left: 48px;
+    margin-top: 24px;
+    text-align: center;
     font-size: small;
 }
 
@@ -482,7 +478,6 @@
     width: 16px;
     height: 16px;
 }
-
 
 .button__search_reset, .button__search_submit {
     width: 40px;
