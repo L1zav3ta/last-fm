@@ -414,10 +414,6 @@
     margin-top: 12px;
 }
 
-.main__search_content__more_link:hover {
-    text-decoration: underline;
-}
-
 .main__search_content__more_link:nth-child(3):after {
     content: " >";
     font-weight: normal;
@@ -490,10 +486,6 @@
 
 .main__search_content__title {
     font-weight: normal;
-}
-
-.main__search_content__title:hover {
-    text-decoration: underline;
 }
 
 .main__search_content__right_side__p > a {
